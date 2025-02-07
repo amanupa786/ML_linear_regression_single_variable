@@ -36,12 +36,6 @@ The dataset contains two columns:
 3. **Make Predictions:** Predicts house prices for new areas.
 4. **Extract Coefficients:** Finds slope (`coef_`) and intercept (`intercept_`).
 5. **Manual Price Calculation:** Uses the formula:
-
-   \[
+   
+   ```math
    \text{Price} = (\text{Coefficient} \times \text{Area}) + \text{Intercept}
-   \]
-
-## Installation & Usage
-### **Step 1: Clone the Repository**
-```bash
-git clone https://github.com/amanupa786/ML_linear_regression_single_variable.git
